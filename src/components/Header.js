@@ -2,6 +2,8 @@ import React from "react";
 import styled from "styled-components";
 import { Button } from "@material-ui/core";
 import { Link } from "react-router-dom";
+import PermIdentityIcon from "@material-ui/icons/PermIdentity";
+import MenuBookIcon from "@material-ui/icons/MenuBook";
 
 function Header() {
   return (
@@ -9,11 +11,17 @@ function Header() {
       <HeaderLeft></HeaderLeft>
       <HeaderRight>
         <Link to="/">
-          <HeaderButton>About</HeaderButton>
+          <HeaderButton>
+            <PermIdentityIcon />
+            About
+          </HeaderButton>
         </Link>
 
         <Link to="/projects">
-          <HeaderButton>Projects</HeaderButton>
+          <HeaderButton>
+            <MenuBookIcon />
+            Projects
+          </HeaderButton>
         </Link>
       </HeaderRight>
     </HeaderContainer>
@@ -39,12 +47,17 @@ const HeaderRight = styled.div`
 
 const HeaderButton = styled(Button)`
   color: white !important;
-  width: 100px;
+  width: 150px;
   height: 100px;
+  display: flex;
 
   :hover {
     background-color: white !important;
     color: rgba(255, 103, 68, 0.91) !important;
+  }
+
+  > .MuiButton-label > .MuiSvgIcon-root {
+    margin-right: 10px;
   }
 `;
 
