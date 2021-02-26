@@ -64,7 +64,8 @@ const HeaderButton = styled(Button)`
 const HeaderContainer = styled.div`
   display: flex;
   position: sticky;
-  top: 10px;
+  top: 0;
   background-color: rgba(255, 103, 68, 0.91);
   height: 100px;
+  z-index: 1;
 `;

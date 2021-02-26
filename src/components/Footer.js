@@ -53,7 +53,6 @@ const FooterLogo = styled(Avatar)`
 `;
 
 const FooterContainer = styled.div`
-  position: fixed;
   bottom: 0px;
   padding-bottom: 5em;
   height: 100px;
