@@ -3,6 +3,7 @@ import Header from "./components/Header";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import Footer from "./components/Footer";
 import About from "./components/About";
+import SkillSet from "./components/SkillSet";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Switch>
           <Route path="/">
             <About />
+            <SkillSet />
           </Route>
         </Switch>
         <Footer />

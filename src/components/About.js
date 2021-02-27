@@ -79,7 +79,6 @@ const AboutContact = styled.div`
   > a > .MuiSvgIcon-root {
     text-decoration: none;
     color: initial;
-    margin-top: 2em;
 
     font-size: 30px;
     padding: 10px;
