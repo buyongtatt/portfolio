@@ -25,6 +25,8 @@ function SkillSet() {
           <h3>Back-end</h3>
           <ul>
             <li>NPM</li>
+            <li>NodeJs</li>
+            <li>Express</li>
             <li>Firebase</li>
           </ul>
         </Skill>

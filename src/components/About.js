@@ -82,6 +82,11 @@ const AboutContact = styled.div`
 
     font-size: 30px;
     padding: 10px;
+
+    :hover {
+      margin-top: -30px;
+      transition: 0.5s;
+    }
   }
 `;
 
