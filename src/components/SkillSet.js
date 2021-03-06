@@ -28,6 +28,7 @@ function SkillSet() {
             <li>NodeJs</li>
             <li>Express</li>
             <li>Firebase</li>
+            <li>MongoDB</li>
           </ul>
         </Skill>
         <Skill>
@@ -36,6 +37,8 @@ function SkillSet() {
           <ul>
             <li>GitHub</li>
             <li>VS Code</li>
+            <li>Postman</li>
+            <li>Insomnia</li>
           </ul>
         </Skill>
       </Skillset>
