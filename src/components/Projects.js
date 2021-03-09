@@ -8,6 +8,7 @@ import slack from "../assets/slack.PNG";
 import amazon from "../assets/amazon.PNG";
 import instagram from "../assets/instagram.PNG";
 import whatsapp from "../assets/whatsapp.PNG";
+import discord from "../assets/discord.PNG";
 
 function Projects() {
   return (
@@ -152,7 +153,7 @@ function Projects() {
           </ProjectButton>
         </ProjectDetail>
         <ProjectImage>
-          <img src={instagram} alt="" />
+          <img src={discord} alt="" />
         </ProjectImage>
       </ProjectRow>
     </ProjectsContainer>
