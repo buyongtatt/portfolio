@@ -129,6 +129,32 @@ function Projects() {
           </ProjectButton>
         </ProjectDetail>
       </ProjectRow>
+      <ProjectRow>
+        <ProjectDetail>
+          <h3>DISCORD-CLONE</h3>
+          <p>WEB</p>
+          <ProjectPlatform>
+            <DesktopMacIcon />
+            <TabletAndroidIcon />
+            <PhoneAndroidIcon />
+          </ProjectPlatform>
+          <ProjectDescription>
+            <p>
+              A Discord-looking web application made with MERN stack, Redux and
+              firebase authentication that allows the user to Sign up, Log in,
+              Add New Channel and Chatting.
+            </p>
+          </ProjectDescription>
+          <ProjectButton>
+            <a href="https://github.com/buyongtatt/mern-discord-clone">
+              <Button>VISIT REPO</Button>
+            </a>
+          </ProjectButton>
+        </ProjectDetail>
+        <ProjectImage>
+          <img src={instagram} alt="" />
+        </ProjectImage>
+      </ProjectRow>
     </ProjectsContainer>
   );
 }
