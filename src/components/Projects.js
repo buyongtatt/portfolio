@@ -9,12 +9,35 @@ import amazon from "../assets/amazon.PNG";
 import instagram from "../assets/instagram.PNG";
 import whatsapp from "../assets/whatsapp.PNG";
 import discord from "../assets/discord.PNG";
+import todo from "../assets/todo.PNG";
 
 function Projects() {
   return (
     <ProjectsContainer>
       <h2>Projects</h2>
       <p>Here are few of the projects I have worked on.</p>
+      <ProjectRow>
+        <ProjectImage>
+          <img src={todo} alt="" />
+        </ProjectImage>
+        <ProjectDetail>
+          <h3>Todo App</h3>
+          <p>WEB</p>
+          <ProjectPlatform>
+            <DesktopMacIcon />
+            <TabletAndroidIcon />
+            <PhoneAndroidIcon />
+          </ProjectPlatform>
+          <ProjectDescription>
+            <p>A simple TODO app using MERN and React Context API.</p>
+          </ProjectDescription>
+          <ProjectButton>
+            <a href="https://github.com/buyongtatt/mern-todo-app">
+              <Button>VISIT REPO</Button>
+            </a>
+          </ProjectButton>
+        </ProjectDetail>
+      </ProjectRow>
       <ProjectRow>
         <ProjectDetail>
           <h3>SLACK-CLONE</h3>
