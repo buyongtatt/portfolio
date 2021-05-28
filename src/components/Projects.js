@@ -9,7 +9,7 @@ import amazon from "../assets/amazon.PNG";
 import instagram from "../assets/instagram.PNG";
 import whatsapp from "../assets/whatsapp.PNG";
 import discord from "../assets/discord.PNG";
-import todo from "../assets/todo.PNG";
+import linkedin from "../assets/linkedin.PNG";
 
 function Projects() {
   return (
@@ -18,10 +18,10 @@ function Projects() {
       <p>Here are few of the projects I have worked on.</p>
       <ProjectRow>
         <ProjectImage>
-          <img src={todo} alt="" />
+          <img src={linkedin} alt="" />
         </ProjectImage>
         <ProjectDetail>
-          <h3>Todo App</h3>
+          <h3>LinkedIn Clone</h3>
           <p>WEB</p>
           <ProjectPlatform>
             <DesktopMacIcon />
@@ -29,10 +29,17 @@ function Projects() {
             <PhoneAndroidIcon />
           </ProjectPlatform>
           <ProjectDescription>
-            <p>A simple TODO app using MERN and React Context API.</p>
+            <p>
+              LinkedIn-looking web application made with ReactJs, styled
+              components and firebase that allows users to sign in with Google
+              to write post by uploading image or video.
+            </p>
           </ProjectDescription>
           <ProjectButton>
-            <a href="https://github.com/buyongtatt/mern-todo-app">
+            <a href="https://linked-in-44180.web.app/">
+              <Button>VISIT WEBPAGE</Button>
+            </a>
+            <a href="https://github.com/buyongtatt/linked-in-clone">
               <Button>VISIT REPO</Button>
             </a>
           </ProjectButton>
